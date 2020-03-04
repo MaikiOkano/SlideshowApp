@@ -13,6 +13,10 @@
 		FBE955512405174A001C9B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE9554F2405174A001C9B69 /* Main.storyboard */; };
 		FBE955532405174D001C9B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE955522405174D001C9B69 /* Assets.xcassets */; };
 		FBE955562405174D001C9B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE955542405174D001C9B69 /* LaunchScreen.storyboard */; };
+		FBE9555E24051B98001C9B69 /* egg_with_bread.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE9555D24051B98001C9B69 /* egg_with_bread.jpg */; };
+		FBE9556024051BB6001C9B69 /* pancake4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE9555F24051BB6001C9B69 /* pancake4.jpg */; };
+		FBE9556224051BCC001C9B69 /* ソーセージ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE9556124051BCC001C9B69 /* ソーセージ.jpg */; };
+		FBE9556624055A92001C9B69 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9556524055A92001C9B69 /* View2Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FBE955522405174D001C9B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBE955552405174D001C9B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBE955572405174D001C9B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE9555D24051B98001C9B69 /* egg_with_bread.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_with_bread.jpg; sourceTree = "<group>"; };
+		FBE9555F24051BB6001C9B69 /* pancake4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pancake4.jpg; sourceTree = "<group>"; };
+		FBE9556124051BCC001C9B69 /* ソーセージ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ソーセージ.jpg"; sourceTree = "<group>"; };
+		FBE9556524055A92001C9B69 /* View2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				FBE955492405174A001C9B69 /* AppDelegate.swift */,
 				FBE9554B2405174A001C9B69 /* SceneDelegate.swift */,
 				FBE9554D2405174A001C9B69 /* ViewController.swift */,
+				FBE9556524055A92001C9B69 /* View2Controller.swift */,
 				FBE9554F2405174A001C9B69 /* Main.storyboard */,
 				FBE955522405174D001C9B69 /* Assets.xcassets */,
 				FBE955542405174D001C9B69 /* LaunchScreen.storyboard */,
 				FBE955572405174D001C9B69 /* Info.plist */,
+				FBE9555D24051B98001C9B69 /* egg_with_bread.jpg */,
+				FBE9555F24051BB6001C9B69 /* pancake4.jpg */,
+				FBE9556124051BCC001C9B69 /* ソーセージ.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE9555E24051B98001C9B69 /* egg_with_bread.jpg in Resources */,
 				FBE955562405174D001C9B69 /* LaunchScreen.storyboard in Resources */,
 				FBE955532405174D001C9B69 /* Assets.xcassets in Resources */,
+				FBE9556224051BCC001C9B69 /* ソーセージ.jpg in Resources */,
 				FBE955512405174A001C9B69 /* Main.storyboard in Resources */,
+				FBE9556024051BB6001C9B69 /* pancake4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBE9554E2405174A001C9B69 /* ViewController.swift in Sources */,
+				FBE9556624055A92001C9B69 /* View2Controller.swift in Sources */,
 				FBE9554A2405174A001C9B69 /* AppDelegate.swift in Sources */,
 				FBE9554C2405174A001C9B69 /* SceneDelegate.swift in Sources */,
 			);
