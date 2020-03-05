@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         if segue.identifier == "MoveView2" {
             let secondViewController = segue.destination as! View2Controller
             secondViewController.bigImage = sender as! UIImage
+            setButtonEnabled(next: true, back: true)
+            playPauseButton.setTitle("再生", for: .normal)
+            // タイマーを停止
+            self.timer.invalidate()
         }
     }
     
